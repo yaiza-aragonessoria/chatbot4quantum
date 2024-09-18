@@ -1,0 +1,45 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# production
+/build
+
+# misc
+.DS_Store
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Project specific
+backend/chatbot/model/
+backend/chatbot/LLM_QA/
+backend/chatbot/tests/data_for_tests/quantum_LLM.pth
+backend/chatbot/tests/data_for_tests/LLM_QA
+
+backend/chatbot/__pycache__/
+backend/chatbot/.pytest_cache
+/.pytest_cache
+backend/chatbot/cache_dir/
+backend/chatbot/tests/tests_LLM_QA/__pycache__/
+backend/chatbot/bert-finetuned-squad-accelerate/
+
+# env files
+.env*
+
+# next.js
+/.next/
+/out/
+/.vercel
+
+.idea
+
