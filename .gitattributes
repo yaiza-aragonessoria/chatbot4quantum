@@ -1,1 +1,6 @@
 backend/chatbot/data/** filter=lfs diff=lfs merge=lfs -text
+backend/chatbot/tests/data_for_tests/LLM_QA/** filter=lfs diff=lfs merge=lfs -text
+backend/chatbot/bert-finetuned-squad-accelerate/** filter=lfs diff=lfs merge=lfs -text
+backend/chatbot/model/** filter=lfs diff=lfs merge=lfs -text
+backend/chatbot/LLM_QA/** filter=lfs diff=lfs merge=lfs -text
+backend/chatbot/tests/data_for_tests/quantum_LLM.pth filter=lfs diff=lfs merge=lfs -text
